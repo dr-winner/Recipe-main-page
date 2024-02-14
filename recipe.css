@@ -1,0 +1,106 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(248, 227, 230);
+}
+
+.main-container{
+    padding: 2rem;
+    background-color: rgb(248, 246, 246);
+    width: auto;
+    margin: 2rem 20rem;
+    border-radius: 15px;
+
+}
+
+.recipe-name {
+    font-family: sans-serif, Haettenschweiler, 'Arial Narrow Bold';
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+.prep-time h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: hsl(0, 84%, 39%);
+    font-size: 1.5rem;
+  }
+
+.prep-time ul li{
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.prep-time ul li::marker{
+    color: rgb(80, 3, 3);
+}
+
+p{
+    font-family: Arial, sans-serif;
+    font-size: 0.9rem;   
+}
+
+.ingredient-container h2{
+    color: hsl(0, 72%, 32%);
+    font-size: 2rem;
+}
+.ingredient-container ul{
+    list-style-type: square;
+}
+.ingredient-container ul li::marker{
+    color: hsl(0, 72%, 32%);
+}
+
+.ingredient-container ul li{
+    margin-top: 10px;
+}
+
+.prep-time{
+    background-color: hsl(353, 39%, 95%);
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+img{
+    width: 100%;
+    border-radius: 15px;
+    
+}
+
+.instructions-container h2{
+    font-size: 2rem;
+    color: hsl(0, 72%, 32%);
+}
+
+.instructions-container ol li{
+    margin-top: 0.5rem;
+    border-spacing: 0.5rem;
+}
+
+.instructions-container ol li::marker{
+    color: hsl(0, 72%, 32%);
+    font-weight: bolder;    
+}
+
+.instructions-container ol li{
+    padding-left: 7px;
+}
+
+td:nth-child(2) {
+    padding-left: 16rem;
+    color: rgba(160, 49, 45, 0.897);
+    font-weight: bolder;
+
+}
+
+table {
+    border-collapse: collapse; 
+  }
+  
+  table tr {
+    border-top: 1.5px solid hsl(0, 79%, 36%);
+  }
