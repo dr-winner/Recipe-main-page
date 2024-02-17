@@ -5,38 +5,58 @@
 }
 
 body{
-    background-color: rgb(248, 227, 230);
+    background-color: hsl(351, 60%, 93%);
 }
 
 .main-container{
     padding: 2rem;
-    background-color: rgb(248, 246, 246);
+    background-color: hsl(0, 12%, 97%);
     width: auto;
     margin: 2rem 20rem;
     border-radius: 15px;
-
+    color: hsl(14, 45%, 36%);
 }
 
-.recipe-name {
-    font-family: sans-serif, Haettenschweiler, 'Arial Narrow Bold';
+.recipe-name h1{
+    font-family: "Young Serif", serif;
     font-optical-sizing: auto;
-    font-weight: 900;
+    font-weight: 500;
     font-style: normal;
-  }
+    color: hsl(24, 5%, 18%);
+}
+
+.recipe-desc p{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(24, 5%, 18%);;
+}
 
 .prep-time h2{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Outfit", sans-serif;
     color: hsl(0, 84%, 39%);
-    font-size: 1.5rem;
-  }
+    font-size: 1.3rem;
+}
 
 .prep-time ul li{
     padding-left: 20px;
     margin-top: 10px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(24, 5%, 18%);;
 }
 
 .prep-time ul li::marker{
-    color: rgb(80, 3, 3);
+    color: hslhsl(14, 45%, 36%);
+}
+
+.prep-time{
+    background-color: hsl(353, 39%, 95%);
+    padding: 1rem;
+    border-radius: 15px;
 }
 
 p{
@@ -45,24 +65,29 @@ p{
 }
 
 .ingredient-container h2{
-    color: hsl(0, 72%, 32%);
-    font-size: 2rem;
+    color: hsl(14, 45%, 36%);
+    font-size: 1.5rem;
+    font-family: "Young Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
+
 .ingredient-container ul{
     list-style-type: square;
 }
+
 .ingredient-container ul li::marker{
     color: hsl(0, 72%, 32%);
 }
 
 .ingredient-container ul li{
     margin-top: 10px;
-}
-
-.prep-time{
-    background-color: hsl(353, 39%, 95%);
-    padding: 1rem;
-    border-radius: 15px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);;
+    font-style: normal;
 }
 
 img{
@@ -72,8 +97,12 @@ img{
 }
 
 .instructions-container h2{
-    font-size: 2rem;
-    color: hsl(0, 72%, 32%);
+    font-size: 1.5rem;
+    font-family: "Young Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: hsl(14, 45%, 36%);
 }
 
 .instructions-container ol li{
@@ -82,25 +111,46 @@ img{
 }
 
 .instructions-container ol li::marker{
-    color: hsl(0, 72%, 32%);
+    color: hsl(14, 45%, 36%);
     font-weight: bolder;    
 }
 
 .instructions-container ol li{
     padding-left: 7px;
+    color: hsl(24, 5%, 18%);;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 td:nth-child(2) {
     padding-left: 16rem;
-    color: rgba(160, 49, 45, 0.897);
+    color: hsl(14, 45%, 36%);
     font-weight: bolder;
-
 }
 
 table {
     border-collapse: collapse; 
-  }
-  
-  table tr {
-    border-top: 1.5px solid hsl(0, 79%, 36%);
-  }
+}
+
+table tr {
+    border-top: 1px solid hsl(0, 79%, 36%);
+    /* padding: 5rem 0; */
+}
+
+.nutrition-table, .nutrition-table p{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(24, 5%, 18%);;
+}
+
+.nutrition-container h2{
+    font-family: "Young Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: hsl(14, 45%, 36%);
+}
